@@ -325,7 +325,7 @@ for (j in 1:dim(Caribbean_ds)[1]) {
 ## note: to add canopy height and canopy height change variables (also calculated at the subplot scale) to this dataset run lines 1073-1175 of Li-Dar_CanopyCover_and_TreeHeight_Regressions.Rmd
 
 ### load the dataset remote sensing dataset 
-library(XLConnect)
+library(XLConnect); library(dplyr)
 
 #### NEW DATASET
 wb2 <- loadWorkbook("C:/Users/JamesHogan/Box/James.Hogan_Workspace/ORISE_PostDoc/data/LiDarData_from_Tom_R/lidar_7p5m_rad_nd_pwd.xlsx", password = "PuertoRico")
