@@ -12,4 +12,4 @@ These models are fit in R with JAGS 4.3.1
 
 
 correspondence to J. Aaron Hogan
-james.hogan@usda.gov
+jamesaaronhogan@gmail.com
